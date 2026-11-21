@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-canvas: #F4F3F0;
+  --color-ink: #111111;
+  --color-accent: #F04B1A;
+  --color-accent-hover: #D93E10;
+  --color-surface: #FFFFFF;
+  --color-muted: #777777;
+  --color-border: #E5E3DF;
+  --color-dark-bg: #111111;
+  --color-dark-surface: #1A1A1A;
+  --color-dark-border: #262626;
+}
+
+@layer base {
+  html {
+    background-color: #F4F3F0;
+    color: #111111;
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  body {
+    background-color: #F4F3F0;
+    color: #111111;
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height: 1.6;
+    overflow-x: clip;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+    letter-spacing: -0.03em;
+  }
+
+  :focus-visible {
+    outline: 2px solid #F04B1A;
+    outline-offset: 3px;
+  }
+}
+
+.type-hero {
+  font-size: clamp(2rem, 4.1vw, 3.6rem);
+  line-height: 1.08;
+  letter-spacing: -0.032em;
+}
+
+.type-section-title {
+  font-size: clamp(1.875rem, 3.6vw, 3.125rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.type-cta-title {
+  font-size: clamp(2rem, 4.5vw, 4rem);
+  line-height: 1.08;
+  letter-spacing: -0.032em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
