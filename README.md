@@ -84,6 +84,6 @@ To use a custom sender address, verify your domain in Resend first.
 
 ## Contact
 
-- **Portfolio:** https://rimsha-shafique-portfolio.vercel.app/
-- **LinkedIn:** https://linkedin.com/in/rimshashique
-- **GitHub:** https://github.com/rimshafique99
+- **Portfolio:** [https://rimsha-shafique-portfolio.vercel.app/](https://rimsha-shafique-portfolio.vercel.app/)
+- **LinkedIn:** [https://linkedin.com/in/rimshashique](https://www.linkedin.com/in/rimshashafique)
+- **GitHub:** [https://github.com/rimshafique99](https://github.com/rimshashafique99)
